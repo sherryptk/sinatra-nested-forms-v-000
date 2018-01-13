@@ -12,5 +12,11 @@ module FormsLab
       erb :new
     end
 
+    post '/show' do
+
+      erb :show
+    end
+    end
+
   end
 end
